@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:arial;
+}
+
+body {
+    background-color: white;
+}
+.navbar {
+    background-color: rgb(47, 49, 47);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 27px;
+    font-family: "arial";
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.logo img {
+    height: 70px;
+    align-items: center; 
+}
+
+.nav-list .list-item a:hover {
+    color: #a3620a;
+}
+.nav-list {
+    list-style-type: none;
+    
+}
+
+.nav-list .list-item a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+.contactBanner img {
+    height: 300px;
+    width: auto;
+    object-fit: cover;
+}
+  
+  .contactBannerText {
+      color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -250%);
+    font-size: 12vh;
+    font-family: arial;
+    text-shadow: 0px 2px 20px lightslategray;
+  }
+
+fieldset {
+    align-content: center;
+    width: 95%;
+    margin: 10px 2.5% 0 2.5%;
+    border: none;
+}
+
+.textInputs input {
+    display: block;
+    margin: 10px 10% 0 10%;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+
+.textInputs label {
+    margin-left: 10%;
+font-weight: bold;
+}
+
+
+.selectButtons {
+    width: 80%;
+    margin: 2vh 10%;
+}
+
+.selectButtons input {
+    padding: 200px;
+    margin-top: 25px;
+        margin-right: 10px;
+}
+
+.selectButtons label {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+
+.radioButtons {
+    width: 80%;
+    margin: 4vh 10%;
+}
+
+.radioButtons label {
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.radioButtons input {
+    padding: 200px;
+    margin-top: 25px;
+        margin-right: 10px;
+}
+
+
+.formSubmit {
+    margin-bottom: 3vh;
+    margin-top: 3vh;
+    margin-left: 860px;
+    border-radius: 1em;
+    padding: 25px;
+    background-color: #a3620a;
+    color: white;
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+}
+.textInputs .formReason{
+    width: 80%;
+    height: 200px;
+    margin-top: 5px;
+    margin-left: 10%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+
+}
+.smicons {
+    justify-items: center;
+    margin-top: 5vh;
+    margin-left: 870px;
+}
+.smicons img{
+    padding: 10px;
+    width: 10vh;
+}

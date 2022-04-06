@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+     <link rel="stylesheet" href="css/contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><a href="index.html">
+            <img src="images/vicious-cycles-logo.png" alt="logo"></a>
+        </div>
+        <ul class="nav-list">
+            <li class="list-item"><a target="_self" href="products.html">Products</a></li>
+            <li class="list-item"><a target="_self" href="services.html">Services</a></li>
+            <li class="list-item"><a target="_self" href="aboutus.html">About Us</a></li>
+            <li class="list-item"><a target="_self" href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+<div class="contactBanner">
+    
+      <img src="images/cyclemain.jpg" alt="cyclemain" style="width:100%;">
+      <div class="contactBannerText">Contact Us</div>
+    </div>
+  
+
+<section>
+    <form id = "contact" method = "post" action = "">
+    <fieldset>
+<div class="textInputs">
+    <label class = "formName" for = "userName">First and Last Name</label> <input type = "text" name = "name" id = "userName"> <br>
+    <label class = "formEmail" for = "userEmail">Your Email Address</label> <input type = "email" name = "email" id = "userEmail"> <br>
+    <label class = "formPhone" for = "userPhone">Phone Number</label> <input type = "text" name = "phone" id = "userPhone"> <br>
+</div>
+
+<div class = "selectButtons">
+    <label>How do you Prefer to be contacted? </label> <br>
+    <input type = "checkbox" name = "preferredContact" value = "email" id = "email"><label for = "email">E-mail</label>
+<br>
+    <input type = "checkbox" name = "preferredContact" value = "phone" id = "phone"><label for = "phone">Phone</label>
+<br>
+<input type = "checkbox" name = "preferredContact" value = "none" id = "none"><label for = "none">No Need for Contact</label>
+
+</div>
+
+<div class= "textInputs">
+    <label class = "reasonLabel" for = "userReason">Write your Inquiry</label> <textarea class = "formReason" name = "reason" id = "userReason"> </textarea>
+</div>
+    <input class = "formSubmit" type = "submit">
+
+    
+            </fieldset>
+        </form>
+    </section>
+<div class="smicons">
+        <footer>
+            <a href=""><img src= "images/fbicon.png" alt="fb logo"></a>
+            <a href=""><img src= "images/igicon.png" alt="ig logo"></a>
+        </footer>
+</body>
+</html>

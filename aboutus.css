@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    background-color: white;
+}
+.navbar {
+    background-color: rgb(47, 49, 47);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 27px;
+    font-family: "Arial";
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.logo img {
+    height: 70px;
+    align-items: center; 
+}
+
+.nav-list .list-item a:hover {
+    color: #a3620a;
+}
+.nav-list {
+    list-style-type: none;
+    
+}
+
+.nav-list .list-item a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .container img {
+      height: 500px;
+      width: auto;
+      object-fit: cover;
+  }
+
+
+ 
+  .bannerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12vh;
+    font-family: arial;
+    text-shadow: 0px 2px 20px lightslategray;
+  }
+  
+
+
+  
+#employeeCards {
+
+    justify-items: center;
+    width: 100%;
+    margin-top: 80px;
+    display: grid;
+    grid-gap: .5em;
+    grid-template-areas: 
+    "man1 man2 man3";
+    grid-template-columns: 1fr .5fr 1fr;
+    margin-bottom: 50px;
+
+}
+
+#employeeCards > div {
+    background-color: #a3620a;
+      width: 36px;
+      height: 600px;
+      overflow: hidden;
+      padding: 40px 30px 100px 30px;
+}
+
+
+
+#employeeCards > div {
+  width: 560px;
+  height: 600px;
+  overflow: hidden;
+  padding: 40px 30px 100px 30px;
+  margin-bottom: 20px;
+}
+
+#employeeCards > div img {
+    margin-left: 97px;
+      height: 200px;
+      width: 300px;
+      overflow: hidden;
+      object-fit: cover;
+}
+
+#employeeCards > div h2 {
+    color: white;
+    padding-top: 5px;
+  font-family: Arial;
+  font-size: 45px;
+  text-align: center;
+  cursor:default;
+  
+}
+
+.employeeDesc {
+color: white;
+  font-family: Arial;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.employeeJob {
+    color: white;
+    font-size: 40px;
+  margin-top: 15vh;
+  font-family: Arial;
+  text-align: center;
+  
+}
+.smicons {
+    justify-items: center;
+    margin-top: 5vh;
+    margin-left: 870px;
+}
+.smicons img{
+    padding: 10px;
+    width: 10vh;
+}
