@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    background-color: rgb(47, 49, 47);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 27px;
+    font-family: "Arial";
+    white-space: nowrap;
+    overflow: hidden;
+}
+.logo img {
+    height: 70px;
+    align-items: center; 
+}
+.nav-list .list-item a:hover {
+    color: #a3620a;
+}
+.nav-list {
+    list-style-type: none;
+}
+
+.nav-list .list-item a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.nav-list .list-item {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .container img {
+      height: 650px;
+      width: auto;
+      object-fit: cover;
+  }
+
+  .bannertext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 150px;
+    font-family: arial;
+    text-shadow: 0px 2px 20px lightslategray;
+  }
+
+  .ads {
+    float: none;
+    margin-left: 740px;
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-gap: 4em;
+    grid-template-areas: 
+    "product1"
+    "product2";
+    grid-template-columns: 1fr;
+    margin-bottom: 50px;
+  }
+
+  .ad1 {
+    padding: 5px;
+    width: 100%;
+  }
+  .ad1 img{
+    float: none;
+    height: 300px;
+    padding: 15px;
+    shape-outside:square(50%);
+}
+
+.ad1 h2 {
+    padding-top: 5vh;
+    margin-left: -100px;
+  font-family: Arial;
+  color: #a3620a;
+}
+
+.ad2 {
+    padding: 5px;
+    width: 100%;
+  }
+  .ad2 img{
+    float: none;
+    height: 300px;
+    padding: 15px;
+    shape-outside:square(50%);
+}
+
+.ad2 h2 {
+    padding-top: 5vh;
+    margin-left: -100px;
+    color: #a3620a;
+  font-family: Arial;
+}
+
+.emailContainer {
+  margin-left: -1485px;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.emailPrompt {
+  position: absolute;
+  width: 100%;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vh;
+  font-family: arial;
+  text-shadow: 0px 2px 20px lightslategray;
+}
+
+.emailContainer img {
+    height: 300px;
+    width: 40%;
+    object-fit: cover;
+}
+
+
+.bannerText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 6vh;
+  font-family: arial;
+  text-shadow: 0px 2px 20px lightslategray;
+}
+
+
+.emailContainer input {
+    text-align: center;
+  display: block;
+  margin: 10px 10% 0 10%;
+  transform: translate(0%, -320%);
+  top: 50%;
+  right: 50%;
+  width: 80%;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+.smicons {
+      margin-left: 100px;
+      margin-top: 5vh;
+}
+.smicons img{
+      padding: 10px;
+      width: 10vh;
+}
