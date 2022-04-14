@@ -9,12 +9,12 @@ body {
     background-color: white;
 }
 .navbar {
-    background-color: rgb(47, 49, 47);
+    background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    font-size: 27px;
+    font-size: 20px;
     font-family: "arial";
     white-space: nowrap;
     overflow: hidden;
@@ -85,22 +85,27 @@ fieldset {
 font-weight: bold;
 }
 
+.dropdownList label {
+    margin-left: 10%;
+font-weight: bold;
+}
 
 .selectButtons {
-    width: 80%;
-    margin: 2vh 10%;
+    margin-left: 10%;
+    font-weight: bold;
 }
 
 .selectButtons input {
     padding: 200px;
-    margin-top: 25px;
+    margin-top: 10px;
         margin-right: 10px;
 }
 
 .selectButtons label {
     margin-right: 10px;
-    margin-bottom: 20px;
-    font-size: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -128,7 +133,7 @@ font-weight: bold;
 .formSubmit {
     margin-bottom: 3vh;
     margin-top: 3vh;
-    margin-left: 860px;
+    margin-left: 544px;
     border-radius: 1em;
     padding: 25px;
     background-color: #a3620a;
@@ -154,7 +159,7 @@ font-weight: bold;
 .smicons {
     justify-items: center;
     margin-top: 5vh;
-    margin-left: 870px;
+    margin-left: 570px;
 }
 .smicons img{
     padding: 10px;
